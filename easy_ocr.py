@@ -125,7 +125,7 @@ if image is not None:
         result2, bbox2 = detect_text(rotated_image, thre = 0.00001)
         
         st.write("The extracted texts: ")
-        st.write(result) # display text
+        st.write(result2) # display text
         
         # Write extracted text with bounding boxes in image
         for i in range(len(result2)):
